@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css" />
+    <fieldset><h1 id="title">Reading Interest Survey </h1>
+    <p id="description">Please answer the questions below. Thank you for your participation!</p>
+    </fieldset>
+  <form id="survey-form">
+<fieldset>
+      <div class="input-element">
+        <h3 id="enter">Enter your information</h3>
+        <label id="name-label">
+         Name
+        <input type="text" id="name" required
+        placeholder="name">
+        </label>
+    </div>
+     <div class="input-element">
+        <label id="email-label">
+         E-mail
+        <input type="email" id="email" required placeholder=" e-mail">
+        </label>
+    </div>
+     <div class="input-element">
+        <label id="number-label">
+         Age
+        <input type="number" min="13" max="120" id="number" required placeholder="age">
+        </label>
+        </div>
+        <div class="input-element">
+          <h3>Please select your gender</h3>
+        <label id="select-label"> 
+          <input type="radio"name="1" value="1" class="inline">
+        Female
+        </label>
+        <label id="select-label"> 
+          <input type="radio"name="1" value="1" class="inline">
+        Male
+        </label>
+        <label id="select-label"> 
+          <input type="radio"name="1" value="1" class="inline">
+        Prefer not to say
+        </label>
+    </div>
+  
+    </div>
+     <div class="input-element">
+          <h3> Please rank (1-4) the following in order of interest:</h3>
+
+        <label id="select-label">
+         Reading from Print media
+        </label>
+        <select id="dropdown">
+          <option> --select-- </option>
+          <option> 1 </option>
+          <option> 2 </option>
+          <option> 3 </option>
+          <option> 4 </option>
+        </select>
+    </div>
+    <div class="input-element">
+        <label id="select-label">
+        Reading from a Tablet (IPad/Kindle etc)
+        </label>
+        <select id="dropdown">
+          <option> --select-- </option>
+          <option> 1 </option>
+          <option> 2 </option>
+          <option> 3 </option>
+          <option> 4 </option>
+        </select>
+    </div>
+     <div class="input-element">
+        <label id="select-label">
+        Reading from a computer
+        </label>
+        <select id="dropdown">
+          <option> --select-- </option>
+          <option> 1 </option>
+          <option> 2 </option>
+          <option> 3 </option>
+          <option> 4 </option>
+        </select>
+    </div>
+     <div class="input-element">
+        <label id="select-label">
+        Reading from a smartphone
+        </label>
+        <select id="dropdown">
+          <option> --select-- </option>
+          <option> 1 </option>
+          <option> 2 </option>
+          <option> 3 </option>
+          <option> 4 </option>
+        </select>
+    </div>
+
+    
+    <div class="input-element">
+     <h3> How often do you read when it is your choice?</h3>
+
+        <label id="select-label"> 
+          <input type="radio"name="1" value="1" class="inline">
+        Never
+        </label>
+        </div>
+        <div>
+        
+        <label id="select-label"> 
+          <input type="radio" name="1" value="1" class="inline">
+        1-2 times a week
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="radio" name="1" value="1" class="inline">
+        3-4 times a week
+        </label>
+        </div>
+        <div>
+      
+         <label id="select-label"> 
+          <input type="radio" name="1" value="1" class="inline">
+        5-6 times a week
+        </label>
+        </div>
+        <div>
+        
+         <label id="select-label"> 
+          <input type="radio" name="1" value="1" class="inline">
+        Everyday
+        </label>
+        </div>
+
+        <div class="input-element">
+     <h3> Which of the following types of books do you prefer to read?<h5> (Choose all that is applicable.)</h5></h3>
+
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Fiction
+        </label>
+        </div>
+        <div> <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Mystery
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Adventure
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Romance
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Biography
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Sci-Fi
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Fantasy
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Comics
+        </label>
+        </div>
+        <div>
+        <label id="select-label"> 
+          <input type="checkbox"name="1" value="1" class="inline">
+        Other
+        </label>
+        </div>
+
+<div class="input-element">
+  <h3>What is your favorite book and why?</h3>
+      <label for="bio">
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like ______ because..."></textarea>
+        </label>
+        </div>
+        <div>
+<input type="submit"id="submit" value="Submit" />
+</div>
+</fieldset>      
+</form>
